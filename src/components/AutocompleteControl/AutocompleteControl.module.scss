@@ -1,0 +1,22 @@
+.autocomplete {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #909090;
+    border-radius: 5px;
+    padding: 10px;
+
+    &__block {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+}
